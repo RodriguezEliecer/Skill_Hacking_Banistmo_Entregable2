@@ -17,9 +17,7 @@ public class IrCapitalInteligente implements Task {
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
-                Click.on(BTN_ACTUALIDAD_ECONOMICA),
-                Click.on(BTN_REPORTE),
-                CambiarVentana.setWindow()
+                Click.on(BTN_ACTUALIDAD_ECONOMICA)
         );
     }
 }

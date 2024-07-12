@@ -38,7 +38,9 @@ dependencies {
     implementation "net.serenity-bdd:serenity-screenplay:$rootProject.ext.serenityVersion"
     implementation "net.serenity-bdd:serenity-cucumber:$rootProject.ext.serenityVersion"
     implementation "net.serenity-bdd:serenity-reports:$rootProject.ext.serenityVersion"
+    implementation 'net.serenity-bdd:serenity-screenplay:2.0.96'
 }
+
 
 tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'

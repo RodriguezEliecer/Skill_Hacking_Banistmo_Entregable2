@@ -36,6 +36,6 @@ public class Bancolombia {
     }
     @Entonces("descargo el reporte y valido que sea el correcto")
     public void descargoElReporteYValidoQueSeaElCorrecto() {
-        OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(ValidarPDF.irPDF()));
+        OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(ValidarPDF.toThe()));
     }
 }
